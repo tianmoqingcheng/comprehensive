@@ -7,16 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041B12AB1C1E54CD002658FB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041B12AA1C1E54CD002658FB /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		046E730A1C1CF62100C42781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046E73091C1CF62100C42781 /* Assets.xcassets */; };
 		046E730D1C1CF62200C42781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046E730B1C1CF62200C42781 /* LaunchScreen.storyboard */; };
 		046E73551C1D08D400C42781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E733C1C1D08D400C42781 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		046E73561C1D08D400C42781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E733D1C1D08D400C42781 /* main.m */; settings = {ASSET_TAGS = (); }; };
 		046E73591C1D09CB00C42781 /* YLAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E73581C1D09CB00C42781 /* YLAdViewController.m */; settings = {ASSET_TAGS = (); }; };
 		046E735B1C1D09E100C42781 /* Ad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046E735A1C1D09E100C42781 /* Ad.storyboard */; settings = {ASSET_TAGS = (); }; };
-		1D66803D8E99559195D3D323 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A29B362F02B5D174B549CBC /* libPods.a */; };
+		04E905D31C1DD4920017B80C /* UIView+HMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E905D21C1DD4920017B80C /* UIView+HMExtension.m */; settings = {ASSET_TAGS = (); }; };
+		04E905D61C1DD63C0017B80C /* YLMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E905D51C1DD63C0017B80C /* YLMainTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		04E905D91C1DD8810017B80C /* YLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E905D81C1DD8810017B80C /* YLNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		04E905DC1C1DD9660017B80C /* YLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E905DB1C1DD9660017B80C /* YLMainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		04E905DE1C1DD97D0017B80C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E905DD1C1DD97D0017B80C /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		04E905E11C1DDA920017B80C /* YLReadingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E905E01C1DDA920017B80C /* YLReadingTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		04E905E31C1DDAA80017B80C /* Reading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E905E21C1DDAA80017B80C /* Reading.storyboard */; settings = {ASSET_TAGS = (); }; };
+		04E905E61C1DDB950017B80C /* YLDiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E905E51C1DDB950017B80C /* YLDiscoverTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		04E905E81C1DDBA50017B80C /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E905E71C1DDBA50017B80C /* Discover.storyboard */; settings = {ASSET_TAGS = (); }; };
+		04E905EB1C1DDC000017B80C /* YLVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E905EA1C1DDC000017B80C /* YLVideoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		04E905ED1C1DDC170017B80C /* Video.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E905EC1C1DDC170017B80C /* Video.storyboard */; settings = {ASSET_TAGS = (); }; };
+		04E905F01C1DDC820017B80C /* YLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E905EF1C1DDC820017B80C /* YLMeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		04E905F21C1DDC8D0017B80C /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E905F11C1DDC8D0017B80C /* Me.storyboard */; settings = {ASSET_TAGS = (); }; };
+		04E905F51C1DE2310017B80C /* YLBottomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E905F41C1DE2310017B80C /* YLBottomTabBar.m */; settings = {ASSET_TAGS = (); }; };
+		04E905F81C1DE2480017B80C /* YLBottomTabBarBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E905F71C1DE2480017B80C /* YLBottomTabBarBtn.m */; settings = {ASSET_TAGS = (); }; };
+		1D66803D8E99559195D3D323 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A29B362F02B5D174B549CBC /* libPods.a */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041B12AA1C1E54CD002658FB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		046E72FA1C1CF62100C42781 /* 网易新闻.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易新闻.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		046E73091C1CF62100C42781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046E730C1C1CF62200C42781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -27,6 +44,31 @@
 		046E73571C1D09CB00C42781 /* YLAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAdViewController.h; sourceTree = "<group>"; };
 		046E73581C1D09CB00C42781 /* YLAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAdViewController.m; sourceTree = "<group>"; };
 		046E735A1C1D09E100C42781 /* Ad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ad.storyboard; sourceTree = "<group>"; };
+		04E905D11C1DD4920017B80C /* UIView+HMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HMExtension.h"; sourceTree = "<group>"; };
+		04E905D21C1DD4920017B80C /* UIView+HMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HMExtension.m"; sourceTree = "<group>"; };
+		04E905D41C1DD63C0017B80C /* YLMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLMainTabBarController.h; sourceTree = "<group>"; };
+		04E905D51C1DD63C0017B80C /* YLMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLMainTabBarController.m; sourceTree = "<group>"; };
+		04E905D71C1DD8810017B80C /* YLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLNavigationController.h; sourceTree = "<group>"; };
+		04E905D81C1DD8810017B80C /* YLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLNavigationController.m; sourceTree = "<group>"; };
+		04E905DA1C1DD9660017B80C /* YLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLMainViewController.h; sourceTree = "<group>"; };
+		04E905DB1C1DD9660017B80C /* YLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLMainViewController.m; sourceTree = "<group>"; };
+		04E905DD1C1DD97D0017B80C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04E905DF1C1DDA920017B80C /* YLReadingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLReadingTableViewController.h; sourceTree = "<group>"; };
+		04E905E01C1DDA920017B80C /* YLReadingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLReadingTableViewController.m; sourceTree = "<group>"; };
+		04E905E21C1DDAA80017B80C /* Reading.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Reading.storyboard; sourceTree = "<group>"; };
+		04E905E41C1DDB950017B80C /* YLDiscoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDiscoverTableViewController.h; sourceTree = "<group>"; };
+		04E905E51C1DDB950017B80C /* YLDiscoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDiscoverTableViewController.m; sourceTree = "<group>"; };
+		04E905E71C1DDBA50017B80C /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		04E905E91C1DDC000017B80C /* YLVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLVideoViewController.h; sourceTree = "<group>"; };
+		04E905EA1C1DDC000017B80C /* YLVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLVideoViewController.m; sourceTree = "<group>"; };
+		04E905EC1C1DDC170017B80C /* Video.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Video.storyboard; sourceTree = "<group>"; };
+		04E905EE1C1DDC820017B80C /* YLMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLMeViewController.h; sourceTree = "<group>"; };
+		04E905EF1C1DDC820017B80C /* YLMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLMeViewController.m; sourceTree = "<group>"; };
+		04E905F11C1DDC8D0017B80C /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
+		04E905F31C1DE2310017B80C /* YLBottomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLBottomTabBar.h; sourceTree = "<group>"; };
+		04E905F41C1DE2310017B80C /* YLBottomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLBottomTabBar.m; sourceTree = "<group>"; };
+		04E905F61C1DE2480017B80C /* YLBottomTabBarBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLBottomTabBarBtn.h; sourceTree = "<group>"; };
+		04E905F71C1DE2480017B80C /* YLBottomTabBarBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLBottomTabBarBtn.m; sourceTree = "<group>"; };
 		0A29B362F02B5D174B549CBC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CE02E2CF7439D5DD12FF8B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DBEC6933F72AA2129F1FEE7D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -37,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041B12AB1C1E54CD002658FB /* CoreFoundation.framework in Frameworks */,
 				1D66803D8E99559195D3D323 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,6 +224,8 @@
 		046E731E1C1D08D400C42781 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04E905E41C1DDB950017B80C /* YLDiscoverTableViewController.h */,
+				04E905E51C1DDB950017B80C /* YLDiscoverTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -195,6 +240,7 @@
 		046E73201C1D08D400C42781 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04E905E71C1DDBA50017B80C /* Discover.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -274,6 +320,8 @@
 		046E732A1C1D08D400C42781 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04E905DA1C1DD9660017B80C /* YLMainViewController.h */,
+				04E905DB1C1DD9660017B80C /* YLMainViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -288,6 +336,7 @@
 		046E732C1C1D08D400C42781 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04E905DD1C1DD97D0017B80C /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -305,6 +354,10 @@
 		046E732E1C1D08D400C42781 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04E905D41C1DD63C0017B80C /* YLMainTabBarController.h */,
+				04E905D51C1DD63C0017B80C /* YLMainTabBarController.m */,
+				04E905D71C1DD8810017B80C /* YLNavigationController.h */,
+				04E905D81C1DD8810017B80C /* YLNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -319,6 +372,10 @@
 		046E73301C1D08D400C42781 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04E905F31C1DE2310017B80C /* YLBottomTabBar.h */,
+				04E905F41C1DE2310017B80C /* YLBottomTabBar.m */,
+				04E905F61C1DE2480017B80C /* YLBottomTabBarBtn.h */,
+				04E905F71C1DE2480017B80C /* YLBottomTabBarBtn.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -336,6 +393,8 @@
 		046E73321C1D08D400C42781 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04E905EE1C1DDC820017B80C /* YLMeViewController.h */,
+				04E905EF1C1DDC820017B80C /* YLMeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -350,6 +409,7 @@
 		046E73341C1D08D400C42781 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04E905F11C1DDC8D0017B80C /* Me.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -409,6 +469,8 @@
 		046E733E1C1D08D400C42781 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				04E905D11C1DD4920017B80C /* UIView+HMExtension.h */,
+				04E905D21C1DD4920017B80C /* UIView+HMExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -471,6 +533,8 @@
 		046E73461C1D08D400C42781 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04E905DF1C1DDA920017B80C /* YLReadingTableViewController.h */,
+				04E905E01C1DDA920017B80C /* YLReadingTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -485,6 +549,7 @@
 		046E73481C1D08D400C42781 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04E905E21C1DDAA80017B80C /* Reading.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -564,6 +629,8 @@
 		046E73521C1D08D400C42781 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04E905E91C1DDC000017B80C /* YLVideoViewController.h */,
+				04E905EA1C1DDC000017B80C /* YLVideoViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -578,6 +645,7 @@
 		046E73541C1D08D400C42781 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04E905EC1C1DDC170017B80C /* Video.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -585,6 +653,7 @@
 		705777907D53D9C446E926AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				041B12AA1C1E54CD002658FB /* CoreFoundation.framework */,
 				0A29B362F02B5D174B549CBC /* libPods.a */,
 			);
 			name = Frameworks;
@@ -634,6 +703,7 @@
 				TargetAttributes = {
 					046E72F91C1CF62100C42781 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 6J58DQPMKM;
 					};
 				};
 			};
@@ -661,8 +731,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				046E730D1C1CF62200C42781 /* LaunchScreen.storyboard in Resources */,
+				04E905E31C1DDAA80017B80C /* Reading.storyboard in Resources */,
 				046E735B1C1D09E100C42781 /* Ad.storyboard in Resources */,
 				046E730A1C1CF62100C42781 /* Assets.xcassets in Resources */,
+				04E905ED1C1DDC170017B80C /* Video.storyboard in Resources */,
+				04E905DE1C1DD97D0017B80C /* Main.storyboard in Resources */,
+				04E905F21C1DDC8D0017B80C /* Me.storyboard in Resources */,
+				04E905E81C1DDBA50017B80C /* Discover.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,9 +796,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E905E61C1DDB950017B80C /* YLDiscoverTableViewController.m in Sources */,
+				04E905F51C1DE2310017B80C /* YLBottomTabBar.m in Sources */,
 				046E73561C1D08D400C42781 /* main.m in Sources */,
+				04E905F01C1DDC820017B80C /* YLMeViewController.m in Sources */,
+				04E905D31C1DD4920017B80C /* UIView+HMExtension.m in Sources */,
+				04E905D91C1DD8810017B80C /* YLNavigationController.m in Sources */,
+				04E905D61C1DD63C0017B80C /* YLMainTabBarController.m in Sources */,
+				04E905EB1C1DDC000017B80C /* YLVideoViewController.m in Sources */,
 				046E73551C1D08D400C42781 /* AppDelegate.m in Sources */,
+				04E905F81C1DE2480017B80C /* YLBottomTabBarBtn.m in Sources */,
+				04E905DC1C1DD9660017B80C /* YLMainViewController.m in Sources */,
 				046E73591C1D09CB00C42781 /* YLAdViewController.m in Sources */,
+				04E905E11C1DDA920017B80C /* YLReadingTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -828,7 +913,9 @@
 			baseConfigurationReference = DBEC6933F72AA2129F1FEE7D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "网易新闻/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.yanlgliu.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -840,7 +927,9 @@
 			baseConfigurationReference = 70CE02E2CF7439D5DD12FF8B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "网易新闻/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.yanlgliu.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
